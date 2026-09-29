@@ -123,7 +123,8 @@ List of possible clearing routes:
   Route 2: 0 -> 4 -> 3 -> 2 -> 1
   ...
 === RESULT ===
-[VALID] Dungeon is valid! Found 14 possible route(s).
+Status: VALID
+Found 14 possible route(s).
 ```
 
 ### Sample 2: Invalid Dungeon – Disconnected (`samples/sample_invalid_disconnected.txt`)
@@ -136,7 +137,8 @@ Rooms count: 5, Tunnels count: 4
 List of possible clearing routes:
 
 === RESULT ===
-[INVALID] Statement: No valid path exists.
+Status: INVALID
+No valid path exists.
 ```
 
 ### Sample 3: Invalid Dungeon – Bottleneck / Hub (`samples/sample_invalid_triangles.txt`)
@@ -149,5 +151,6 @@ Rooms count: 7, Tunnels count: 9
 List of possible clearing routes:
 
 === RESULT ===
-[INVALID] Statement: No valid path exists.
+Status: INVALID
+No valid path exists.
 ```
