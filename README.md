@@ -154,3 +154,7 @@ List of possible clearing routes:
 Status: INVALID
 No valid path exists.
 ```
+
+# AI DISCLOSURE
+asked AI for structuring and guidance based on similar codes on the web
+https://share.gemini.google/sIwfSAzKdXNK
